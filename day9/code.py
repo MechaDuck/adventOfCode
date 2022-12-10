@@ -235,7 +235,7 @@ class StateMachineKnot:
                     self.state = "H00_T11" 
                     return
                 if nextDirection == "LU":
-                    self.state = "H01_T10"
+                    self.state = "H00_T10"
                     self.coordinatesBucket.addNewCoordinate(currPosX - 1, currPosY + 1)
                     self.movementBucket.append("LU")
                     return
