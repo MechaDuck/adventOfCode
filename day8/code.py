@@ -1,6 +1,4 @@
 import numpy as np
-import os
-from enum import Enum
 
 class Tree:
     def __init__(self, height, marker: bool = False) -> None:
