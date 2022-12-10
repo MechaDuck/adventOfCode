@@ -139,9 +139,7 @@ class LookoutPosition:
                         scenicScoreBottomToTop += 1
                     else:
                         scenicScoreBottomToTop += 1
-                        break
-                if scenicScoreLeftToRight * scenicScoreTopToBottom * scenicScoreRightToLeft * scenicScoreRightToLeft == 36:
-                    print()                          
+                        break                       
                 self.forest[x][y].setScenicScore(scenicScoreLeftToRight * scenicScoreTopToBottom * scenicScoreRightToLeft * scenicScoreBottomToTop)
 
     def findTreeIfHighestScenicScore(self):
