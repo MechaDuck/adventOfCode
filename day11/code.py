@@ -116,11 +116,3 @@ lcd = myMonkeyCircus.findCommonDenominator()
 for i in range(len(myMonkeyCircus.monkeys)):
     myMonkeyCircus.monkeys[i].stopWorrying(lcd)
 runXRounds(10000, myMonkeyCircus)
-
-    
-
-
-
-
-        
-
