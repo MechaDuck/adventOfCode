@@ -20,7 +20,6 @@ class Graph:
         for y in range(maxYLength):
             for x in range(maxXLength):
                 self.graphDict[(x,y)] = []
-
                 for n in range(len(neighbours)):
                     nextNeighbourCoord = [x + neighbours[n][0], y + neighbours[n][1]]
                     if nextNeighbourCoord[0] < maxXLength and nextNeighbourCoord[1] < maxYLength and nextNeighbourCoord[0] >= 0 and nextNeighbourCoord[1] >= 0:
