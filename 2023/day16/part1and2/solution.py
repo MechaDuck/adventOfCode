@@ -1,6 +1,6 @@
 from enum import Enum
 
-input_path = "/home/cheesepie/Documents/projects/adventOfCode/2023/day16/part1/input.txt"
+input_path = ""
 
 class Light_Dir(Enum):
     RIGHT = "r"
